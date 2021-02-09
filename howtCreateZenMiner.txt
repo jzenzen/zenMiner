@@ -13,7 +13,9 @@
 #Generic -----------------------------------------------------------------
 apt update
 apt upgrade
-apt -y install openssh-server vim git screen software-properties-common dirmngr apt-transport-https lsb-release ca-certificates
+apt -y install openssh-server vim git screen
+
+apt install software-properties-common dirmngr apt-transport-https lsb-release ca-certificates
 
 
 #Nvidia CUDA -------------------------------------------------------------
