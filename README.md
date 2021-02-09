@@ -5,8 +5,12 @@ Start of with a simple empty installation of Debian 10.
 Easiest from Debian Live and choose install without any packages.
 
 Start with:
+```
 apt update
 apt upgrade
 apt -y install openssh-server vim git screen
 
-git clone --depth=1 git@github.com:jzenzen/zenMiner.git
+git clone --recurse-submodules -j8 git@github.com:jzenzen/zenMiner.git
+```
+
+Then follow the howTo
