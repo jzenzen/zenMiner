@@ -112,17 +112,13 @@ cp libxmrig-cuda.so ~/xmrig/build/.
             "algo": null,
             "url": "gulf.moneroocean.stream:10128",
             "user": "435a664C8oJTcH3mbAXLvUHQs5EJkonwrJ9jgKzfMNLRAaNVPB2AqBMdYj9wCZckPc9yyd153B983F6iaFmfg5QE267XQsC",
-            "pass": "ZenMiner2-RX580",
+            "pass": "ZenMiner",
             "tls": false,
             "keepalive": true,
             "nicehash": false
         }
     ]
 }
-
-gulf.moneroocean.stream:10128
-435a664C8oJTcH3mbAXLvUHQs5EJkonwrJ9jgKzfMNLRAaNVPB2AqBMdYj9wCZckPc9yyd153B983F6iaFmfg5QE267XQsC
-ZenMiner2-RX580
 
 #Install Xmr-Stak-RX -------------------------------------------------------------
 apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
@@ -175,4 +171,4 @@ sed -e "s/iface ens.* inet/iface eth0 inet/g" /etc/network/interfaces
 reboot
 
 
-eth-eu1.nanopool.org:9999 -u 0xfEB86A54ff7896b49342cC4fA73Ef49a57cB0cfc.Noel-RX580 -p johan@zenzens.se
+eth-eu1.nanopool.org:9999 -u 0xfEB86A54ff7896b49342cC4fA73Ef49a57cB0cfc.Zenminer
