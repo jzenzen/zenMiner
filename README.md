@@ -9,4 +9,4 @@ apt update
 apt upgrade
 apt -y install openssh-server vim git screen
 
-git clone https://github.com/jzenzen/zenMiner.git
+git clone --depth=1 git@github.com:jzenzen/zenMiner.git
