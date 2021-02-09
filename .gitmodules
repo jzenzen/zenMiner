@@ -1,0 +1,18 @@
+[submodule "amdcovc"]
+	path = amdcovc
+	url = https://github.com/matszpk/amdcovc.git
+[submodule "CoreFreq"]
+	path = CoreFreq
+	url = https://github.com/cyring/CoreFreq.git
+[submodule "xmrig"]
+	path = xmrig
+	url = https://github.com/MoneroOcean/xmrig.git
+[submodule "xmrig-cuda"]
+	path = xmrig-cuda
+	url = https://github.com/MoneroOcean/xmrig-cuda.git
+[submodule "xmr-stak-rx"]
+	path = xmr-stak-rx
+	url = https://github.com/fireice-uk/xmr-stak.git
+[submodule "xmr-stak"]
+	path = xmr-stak
+	url = https://github.com/fireice-uk/xmr-stak.git
