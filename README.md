@@ -11,7 +11,7 @@ apt update
 apt upgrade
 apt -y install openssh-server vim git screen
 
-git clone --recurse-submodules -j8 git@github.com:jzenzen/zenMiner.git
+git clone --recurse-submodules -j8 https://github.com/jzenzen/zenMiner.git
 ```
 
 Then use the script (which is not 100% tested)
