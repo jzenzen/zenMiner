@@ -150,6 +150,7 @@ cd ../../
 #Install Team Red Miner ------------------------------------------------------------------------
 wget https://github.com/todxx/teamredminer/releases/download/0.8.0/teamredminer-v0.8.0-linux.tgz
 tar xzf teamredminer-v0.8.0-linux.tgz
+rm teamredminer-v0.8.0-linux.tgz
 
 #Install Meta Miner ----------------------------------------------------
 #git clone https://github.com/MoneroOcean/meta-miner.git
@@ -163,10 +164,15 @@ mkdir gminer
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.39/gminer_2_39_linux64.tar.xz
 mkdir gminer39
 (cd gminer39 && tar xf ../gminer_2_39_linux64.tar.xz)
+rm gminer*.xz
 
 
 #T-Rex Miner -------------------------------------------------------------------
 wget https://github.com/trexminer/T-Rex/releases/download/0.19.9/t-rex-0.19.9-linux-cuda11.1.tar.gz
+
+
+#Meta miner -------------------------------------------
+apt install -y nodejs
 
 
 # AUTOSTART -----------------------

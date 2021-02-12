@@ -16,3 +16,6 @@
 [submodule "xmr-stak"]
 	path = xmr-stak
 	url = https://github.com/fireice-uk/xmr-stak.git
+[submodule "meta-miner"]
+	path = meta-miner
+	url = https://github.com/MoneroOcean/meta-miner.git
