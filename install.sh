@@ -21,14 +21,7 @@ apt install -y software-properties-common dirmngr apt-transport-https lsb-releas
 
 
 #Nvidia CUDA -------------------------------------------------------------
-# Info: https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Debian&target_version=10&target_type=debnetwork
-#
-apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/debian10/x86_64/7fa2af80.pub
-add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/debian10/x86_64/ /"
-add-apt-repository contrib
-add-apt-repository non-free
-apt-get update
-apt-get -y install cuda
+./install_nvidia.sh
 
 #AMD OpenCL --------------------------------------------------------------
 # Get Driver from here: https://www.amd.com/en/support/kb/release-notes/rn-amdgpu-unified-linux-20-40
@@ -139,12 +132,12 @@ cd ../../
 
 #Install Xmr-Stak
 #git clone https://github.com/fireice-uk/xmr-stak.git
+sed -i -e "s/DEFAULT_CUDA_ARCH \"30;/DEFAULT_CUDA_ARCH \"/g" xmr-stak/CMakeLists.txt
 mkdir xmr-stak/build
 cd xmr-stak/build
 cmake ..
 make install
 cd ../../
-  ########## You might have to remove compute_30 from CMakeFile
 
 
 #Install Team Red Miner ------------------------------------------------------------------------
