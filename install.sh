@@ -127,7 +127,7 @@ echo "{\
 apt install libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev
 mkdir xmr-stak-rx/build
 cd xmr-stak-rx/build
-cmake ..
+cmake .. -DMICROHTTPD_ENABLE=OFF
 make install
 cd ../../
 
