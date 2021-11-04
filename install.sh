@@ -69,6 +69,7 @@ sysctl -p
 # git clone https://github.com/cyring/CoreFreq.git
 cd CoreFreq
 make
+make install
 #insmod corefreqk.ko
 #./corefreqd &
 #./corefreq-cli
@@ -88,7 +89,7 @@ apt install cuda-toolkit-11.2
 mkdir xmrig-cuda/build && cd xmrig-cuda/build
 cmake ..
 make -j$(nproc)
-cp libxmrig-cuda.so ~/xmrig/build/.
+cp libxmrig-cuda.so ../../xmrig/build/.
 cd ../../
 
 #Simple config.json
