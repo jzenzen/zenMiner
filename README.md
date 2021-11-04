@@ -2,7 +2,7 @@
 Easiest way to create a functional crypto miner with full control.
 Installs drivers for both Nvidia and AMD.
 
-Start of with a simple empty installation of Debian 10.
+Start of with a simple empty installation of Debian 11.
 Easiest from Debian Live and choose install without any packages.
 
 Start with:
@@ -21,9 +21,9 @@ cd zenMiner
 ```
 
 ## Included miners
-* xmrig (MoneroOcean version with coin algo benchmark)
+* xmrig (MoneroOcean version with coin algo benchmark) (Updated for Bullseye)
 * xmr-stak
-* xmr-stak-rx
+* xmr-stak-rx (Updated for Bullseye)
 * Team Red Miner
 * Gminer
 * T-rex miner
